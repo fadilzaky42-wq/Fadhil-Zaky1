@@ -1,0 +1,265 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    font-family: "Times New Roman", serif;
+    background-color: #f1f5f9;
+    color: #111827;
+}
+
+
+/* =========================
+   KOTAK UTAMA
+========================= */
+
+#kotak {
+    width: 900px;
+    min-height: 600px;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+    height: 140px;
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #1d4ed8
+    );
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* LOGO HEADER */
+
+.logo {
+    width: 150px;
+    height: 140px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain; float: left;
+}
+
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+
+.main-container {
+    display: flex;
+    min-height: 430px;
+}
+
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar {
+    width: 150px;
+    padding: 15px;
+    background-color: #1e293b;
+}
+
+
+/* TOMBOL SIDEBAR */
+
+.sidebar-btn {
+    display: block;
+
+    padding: 12px 15px;
+    margin-bottom: 10px;
+
+    background-color: #334155;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    transition: 0.2s;
+}
+
+
+/* HOVER */
+
+.sidebar-btn:hover {
+    background-color: #2563eb;
+    transform: translateX(3px);
+}
+
+
+/* ACTIVE */
+
+.sidebar-btn:active {
+    background-color: #1d4ed8;
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.content {
+    flex: 1;
+
+    text-align: center;
+
+    padding: 35px 40px;
+
+    background-color: #ffffff;
+}
+
+
+/* JUDUL */
+
+.content h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #111827;
+}
+
+.content h2 {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.content h4 {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.form {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 30px;
+}
+
+
+/* INPUT */
+
+.form input {
+    width: 150px;
+
+    padding: 9px 10px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 5px;
+
+    outline: none;
+}
+
+
+/* INPUT SAAT DIKLIK */
+
+.form input:focus {
+    border-color: #2563eb;
+
+    box-shadow:
+        0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+
+/* BUTTON */
+
+.form button {
+    padding: 9px 18px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background-color: #2563eb;
+
+    color: white;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+
+/* BUTTON HOVER */
+
+.form button:hover {
+    background-color: #1d4ed8;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   LOGO DI CONTENT
+========================= */
+
+.logo-content {
+    width: 180px;
+    height: 180px;
+
+    object-fit: contain;
+
+    margin-top: 10px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #0f172a;
+
+    color: white;
+
+    font-size: 14px;
+}
